@@ -1,0 +1,2 @@
+# odoo
+apuntes de odoo
