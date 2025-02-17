@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Odoo",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/odoo/odoo/odoo-bin",
+            "args": ["-c", "/etc/odoo.conf"],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "/odoo/odoo-venv/bin/python3"
+            }
+        }
+    ]
+}
